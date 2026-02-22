@@ -15,8 +15,8 @@
     <!-- Head mit Logo und Buttons--> 
     <header>
         <nav class="nav-inner" aria-label="Hauptnavigation">
-            <div class="brand" onclick="location.href='Start.html'">Alex Web-Market <br>
-                <h6 id="slogan">Marktplatz-Feeling, ganz bequem von überall</h6>
+            <div class="brand" onclick="location.href='Start.html'">Prestige Market <br>
+                <h6 id="slogan">Wo Anspruch auf Auswahl trifft</h6>
             
             </div>
             <div class="nav-buttons">
@@ -47,18 +47,27 @@
      <!-- Seiten Inhalt-->
 <div class="eingabeFenster">
     <form >
+        <h4 id="einloggenText">Einloggen</h4>
+
         <fieldset>
-            <legend>E-Mail*</legend>
-            <input type="email">
+            <input type="email"  placeholder="E-Mail*">
         </fieldset>
         <fieldset>
-            <legend>Passwort*</legend>
-            <input type="password">
+            <input type="password"  placeholder="Passwort*">
+            
         </fieldset>
+        <div id="loggInBtnContainer"><button class="nav-btn" id="einloggenBtn">Einloggen</button></div>
+
+        <div class="registrierenContainer">
+                <text id="kontoFrage">Haben Sie kein Konto?</text>
+                <text><a href="www.beispiel.de" class="link" id="registrierenlink">Registrieren</a></text>
+                <text id="passwortVergessenFrage">Passwort vergessen?</text>
+                <text><a href="www.beispiel.de" class="link" id="passwortVergessenlink">Zurücksetzen</a></text>
+                
+        </div>
     </form>
 </div>
 
     
 </body>
-
 </html>
